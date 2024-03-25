@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>AniBros: Anime Blog</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="AniBros: Your ultimate destination for anime and manga content">
+  <meta name="keywords"    content="anime, manga, reviews, blog, AniBros">
+  <meta name="author"      content="Gurov Dmitriy">
+  <meta name="robots"      content="noindex, follow">
+
+  <link rel="preload" href="font/woff2/Oswald-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="font/woff2/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="font/woff2/OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="preload" href="https://www.w3schools.com/w3css/4/w3.css"         as="style">
+  <link rel="preload" href="css/style.css"                                    as="style">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+
+
+  <script>document.createElement("picture");</script>
+
+  <script src="js/webp.js"        async></script>
+  <script src="js/picturefill.js" async></script>
+  <!--   <script src="js/lazysizes.js"   async></script> -->
+
+</head>
+
+<body class="w3-light-grey w3css-anibros">
+
+  <header>
+
+    <h1 class="visually-hidden">AniBros: Anime Blog</h1>
+
+    <a class="skip-link" href="#main">skip-link</a>
+
+    <nav class="w3-bar w3-black w3-hide-small">
+      <h2 class="visually-hidden">Navigation</h2>
+      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">Facebook</span><span class="fa fa-facebook-official"></span></a>
+      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">Instagram</span><span class="fa fa-instagram"></span></a>
+      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">snap-chat</span><span class="fa fa-snapchat"></span></a>
+      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">twitter</span><span class="fa fa-twitter"></span></a>
+      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">flicker</span><span class="fa fa-flickr"></span></a>
+      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">linkeding</span><span class="fa fa-linkedin"></span></a>
+
+      <a class="w3-bar-item w3-button w3-right" href="#"><span class="visually-hidden">search</span><span class="fa fa-search"></span></a>
+    </nav>
+
+    <div class="w3-content">
+
+      <div class="w3-container w3-padding-32 w3-white w3-center">
+        <p class="w3-xxxlarge usr-main-caption" tabindex="0">aniBros</p>
+        <p class="w3-large">Welcome to the blog of <span class="w3-tag">AniBros: Your ultimate destination for anime and manga content</span></p>
+      </div>
+
+      <div class="w3-display-container usr-main-photo">
+        <picture>
+          <source type="image/webp"
+                  srcset="image/anime_group.webp">
+
+          <img class="w3-image" src="image/anime_group.jpg" width="1600" height="1060" loading="lazy" alt="Anime Group Photo">
+        </picture>
+        <div class="w3-display-left w3-padding-large w3-text-white usr-main-photo-caption">
+          <p class="w3-xxlarge w3-wide">aniBros</p>
+          <p class="w3-hide-small w3-jumbo">Anime Blog</p>
+          <button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off usr-modal-btn" type="button">Subscribe</button>
+        </div>
+      </div>
+
+      <div class="w3-modal">
+        <div class="w3-modal-content  w3-display-container w3-animate-top">
+
+          <button class="w3-button w3-display-topright w3-black w3-large usr-modal-btn-close">
+            <span class="visually-hidden">Close</span>
+            <span class="fa fa-remove"></span>
+          </button>
+
+          <div class="w3-container w3-black w3-padding-large w3-center">
+            <h3 tabindex="0">Subscribe</h3>
+          </div>
+          <p class="w3-container w3-padding-large">Join our mailing list to receive updates on the latest anime and manga news, reviews, and recommendations.</p>
+
+          <form action="#" method="post">
+            <label class="visually-hidden" for="email">Enter e-mail</label>
+            <div class="w3-container w3-padding-large">
+              <input class="w3-input w3-border" id="email" type="email" name="email" placeholder="Enter e-mail" required>
+            </div>
+
+            <div class="w3-container w3-padding-large">
+              <button class="w3-button w3-block w3-red" type="submit">Subscribe</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="w3-content" id="main">
+
+    <div class="w3-row w3-padding-64">
+
+      <div class="w3-col l8 w3-container">
+
+        <!-- Replace the following articles with anime and manga related content -->
+        <!-- Example: anime/manga reviews, episode summaries, character analysis, etc. -->
+        <!-- Ensure to replace images with anime/manga related images -->
+
+      </div>
+
+      <aside class="w3-col l4 w3-container">
+        <!-- Update profile section with aniBros profile information -->
+        <h2 class="visually-hidden">Profile</h2>
+        <!-- Include aniBros profile image and description -->
+
+    </picture>
+    <div class="w3-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget aliquam dolor. Nullam vel libero sit amet nisl posuere lacinia. Curabitur auctor lectus non dolor accumsan, sed tincidunt velit convallis. Duis nec arcu euismod, sollicitudin libero nec, ornare urna. Mauris id orci ac lorem viverra viverra. Nullam sollicitudin velit ut vestibulum condimentum. Vestibulum accumsan imperdiet lectus, non condimentum enim eleifend ac. Vestibulum condimentum suscipit libero, in cursus sem aliquet eu. Cras ultrices felis non ligula faucibus, sit amet malesuada est vestibulum. Mauris ultrices diam nec neque interdum suscipit.</p>
+    </div>
+  </div>
+</article>
+</div>
+
+<div class="w3-col l4">
+<div class="w3-card w3-margin-bottom">
+  <header class="w3-container w3-light-grey w3-padding-16">
+    <h3 class="w3-margin-0">Categories</h3>
+  </header>
+  <div class="w3-container">
+    <p><a href="#">All</a></p>
+    <p><a href="#">Music</a></p>
+    <p><a href="#">Sport</a></p>
+    <p><a href="#">Gaming</a></p>
+    <p><a href="#">Travel</a></p>
+    <p><a href="#">Food</a></p>
+    <p><a href="#">Coding</a></p>
+    <p><a href="#">Fashion</a></p>
+  </div>
+</div>
+
+<div class="w3-card w3-margin-bottom">
+  <header class="w3-container w3-light-grey w3-padding-16">
+    <h3 class="w3-margin-0">Popular Posts</h3>
+  </header>
+  <ul class="w3-ul w3-hoverable w3-white">
+    <li class="w3-padding-16">
+      <img src="image/girl_hat.jpg" alt="Girl" class="w3-left w3-margin-right" style="width:50px">
+      <span class="w3-large">Lorem</span><br>
+      <span>Sed mattis nunc</span>
+    </li>
+    <li class="w3-padding-16">
+      <img src="image/girl_hat.jpg" alt="Girl" class="w3-left w3-margin-right" style="width:50px">
+      <span class="w3-large">Ipsum</span><br>
+      <span>Praes tinci sed</span>
+    </li>
+    <li class="w3-padding-16">
+      <img src="image/girl_hat.jpg" alt="Girl" class="w3-left w3-margin-right" style="width:50px">
+      <span class="w3-large">Dorum</span><br>
+      <span>Ultricies congue</span>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+</main>
+
+<footer class="w3-container w3-black w3-padding-32 w3-margin-top">
+<h3 class="w3-center">Footer</h3>
+<div class="w3-row-padding w3-padding-16">
+<div class="w3-third w3-margin-bottom">
+<p>Powered by <a href="#" target="_blank" class="w3-hover-opacity">Gurov Dmitriy</a></p>
+</div>
+<div class="w3-third w3-margin-bottom">
+<ul class="w3-ul w3-hoverable">
+  <li class="w3-padding-16">
+    <a href="#" class="w3-bar-item w3-button">Link</a>
+  </li>
+  <li class="w3-padding-16">
+    <a href="#" class="w3-bar-item w3-button">Link</a>
+  </li>
+  <li class="w3-padding-16">
+    <a href="#" class="w3-bar-item w3-button">Link</a>
+  </li>
+</ul>
+</div>
+<div class="w3-third w3-margin-bottom">
+<form>
+  <input class="w3-input w3-border" type="text" placeholder="Email">
+  <button type="submit" class="w3-button w3-red w3-margin-top">Subscribe</button>
+</form>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
